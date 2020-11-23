@@ -1,4 +1,4 @@
-# Project Title / Research Title
+# English to Sinhala Neural Machine Translation
 
 ![project] ![research]
 
@@ -20,7 +20,7 @@
 
 ## Summary
 
-two - three paragraphs about your project.
+This research is about developing a NMT system using Transformer architecture for the under-resourced,  domain-specific English to Sinhala translation task. The translation quality is improved by exploring effective ways of incorporating Part-of-Speech (POS) information and subword techniques.
 
 ## Description
 
