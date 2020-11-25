@@ -24,7 +24,60 @@ This research is about developing a NMT system using Transformer architecture fo
 
 ## Description
 
-Detailed description of your project.
+This project consists the following
+
+- Transformer baseline 
+- Transformer with subword segmentation 
+    - Byte Pair Encoding
+    - Unigram
+- Transformer with Part of Speech (POS) 
+    - Input embedding
+    - Positional encoding
+
+The following instructions will guide to produce our results. 
+
+### Requirements
+
+We use [fairseq](https://github.com/pytorch/fairseq) for training, [sentencepiece](https://github.com/google/sentencepiece) for preprocessing & [sacrebleu](https://github.com/mjpost/sacrebleu) to produce BLEU scores.
+
+**Transformer Baseline**
+
+```
+pip install fairseq sacrebleu 
+```
+
+**Transformer with BPE**
+
+```
+pip install fairseq sacrebleu sentencepiece
+
+```
+**Transformer with Unigram**
+
+```
+pip install fairseq sacrebleu sentencepiece
+
+```
+
+**Transformer with POS**
+
+```
+pip install sacrebleu sentencepiece
+
+```
+Since POS is implemented withing the fairseq-transformer, navigate to the project directory and install fairseq as following
+
+```
+pip install --editable ./
+
+```
+
+### Train the baseline transformer model 
+
+Navigate to `src/Transformer-baseline`. Follow the instructions given in the `Readme.md`. 
+
+
+
 
 - Project phases
 - Diagrams
