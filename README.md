@@ -5,7 +5,7 @@
 
 
 - <b>Project Mentor</b>
-    1. Uthayasanker Thayasivam
+    1. Dr Uthayasanker Thayasivam
 - <b>Contributors</b>
     1. Thilakshi Fonseka
     2. Rashmini Naranpanawa
