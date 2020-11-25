@@ -54,20 +54,17 @@ pip install fairseq sacrebleu
 
 ```
 pip install fairseq sacrebleu sentencepiece
-
 ```
 
 **Transformer with POS**
 
 ```
 pip install sacrebleu sentencepiece
-
 ```
 Since POS is implemented withing the fairseq-transformer, navigate to the project directory and install fairseq as following
 
 ```
 pip install --editable ./
-
 ```
 
 ### Train the baseline transformer model 
