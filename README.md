@@ -4,35 +4,39 @@
 
 
 
-- <b>Project Lead(s) / Mentor(s)</b>
-    1. Name (talk forum profile link)
-    2. Name (talk forum profile link)
-- <b>Contributor(s)</b>
-    1. Name (talk forum profile link)
-    2. Name (talk forum profile link)
-
-<b>Usefull Links </b>
-
-- GitHub : <project_url>
-- Talk Forum : <talk_forum_link>
+- <b>Project Mentor</b>
+    1. Uthayasanker Thayasivam
+- <b>Contributors</b>
+    1. Thilakshi Fonseka
+    2. Rashmini Naranpanawa
+    3. Ravinga Perera
 
 ---
 
 ## Summary
 
-This research is about developing a NMT system using Transformer architecture for the under-resourced,  domain-specific English to Sinhala translation task. The translation quality is improved by exploring effective ways of incorporating Part-of-Speech (POS) information and subword techniques.
+This research is about developing a NMT system using Transformer architecture for the under-resourced, domain-specific English to Sinhala translation task. The translation quality is improved by exploring effective ways of incorporating Part-of-Speech (POS) information and subword techniques.
 
 ## Description
 
-This project consists the following
+This project consists of the following.
 
 - Transformer baseline 
 - Transformer with subword segmentation 
     - Byte Pair Encoding
-    - Unigram
-- Transformer with Part of Speech (POS) 
+    - Unigram based subword regularization
+- Transformer with Part-of-Speech (POS) 
     - Input embedding
     - Positional encoding
+    
+### Architecture Diagrams
+
+Following are the architecture diagrams for the POS integration with the input embedding and positional encoding respectively.
+
+<p align="center">
+<img src="https://github.com/aaivu/aaivu-machine-trans-eng-sin/blob/master/docs/images/Architecture-diagram-pos-integration-input-embedding.jpg" width="600">
+<img src="https://github.com/aaivu/aaivu-machine-trans-eng-sin/blob/master/docs/images/Architecture-diagram-pos-integration-positional-encoding.jpg" width="600">
+</p>
 
 The following instructions will guide to produce our results. 
 
@@ -46,13 +50,7 @@ We use [fairseq](https://github.com/pytorch/fairseq) for training, [sentencepiec
 pip install fairseq sacrebleu 
 ```
 
-**Transformer with BPE**
-
-```
-pip install fairseq sacrebleu sentencepiece
-
-```
-**Transformer with Unigram**
+**Transformer with subword segmentation**
 
 ```
 pip install fairseq sacrebleu sentencepiece
@@ -74,19 +72,14 @@ pip install --editable ./
 
 ### Train the baseline transformer model 
 
-Navigate to `src/Transformer-baseline`. Follow the instructions given in the `Readme.md`. 
+- Navigate to `src/Transformer-baseline`. Follow the instructions given in the `README.md`.
 
+### Train the subword segmented transformer models 
 
+- To train the Transformer BPE model, navigate to `src/Subword-segmentation/Transformer-BPE`. Follow the instructions given in the `README.md`.
+- To train the Transformer subword regularization model, navigate to `src/Subword-segmentation/Transformer-subword-regularization`. Follow the instructions given in the `README.md`.
 
-
-- Project phases
-- Diagrams
-- Approches
-
-## More references
-
-1. Reference
-2. Link
+### Train the POS integrated transformer models
 
 ---
 
