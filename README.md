@@ -79,7 +79,7 @@ pip install --editable ./
 ### Train the POS integrated transformer models
 
 - To train the Transformer model with POS integrated to the input embedding, navigate to `src/POS-implementation/Fairseq-POS-integration-input-embedding/`. Follow the instructions given in the `README.md`.
-- To train the Transformer model with POS integrated to the positional encoding unit, navigate to `src/POS-implementation/Fairseq-POS-integration-positional-encoding/`. Follow the instructions given in the `README.md`.
+- To train the Transformer model with POS integrated to the positional encoding unit, navigate to `src/POS-implementation/fairseq/`. Follow the instructions given in the `README.md`.
 ---
 
 ### License
