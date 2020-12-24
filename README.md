@@ -82,6 +82,11 @@ pip install --editable ./
 - To train the Transformer model with POS integrated to the positional encoding unit, navigate to `src/POS-implementation/fairseq/`. Follow the instructions given in the `README.md`.
 ---
 
+### Publications
+
+T. Fonseka, R. Naranpanawa, R. Perera and U. Thayasivam, “English to Sinhala Neural Machine Translation,”  in 2020 Int. Conf. Asian Language Processing (IALP), Kuala Lumpur, December 2020, pp. 306-309.
+
+
 ### License
 
 Apache License 2.0
