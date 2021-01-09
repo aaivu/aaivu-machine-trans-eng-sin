@@ -78,13 +78,12 @@ pip install --editable ./
 
 ### Train the POS integrated transformer models
 
-- To train the Transformer model with POS integrated to the input embedding, navigate to `src/POS-implementation/Fairseq-POS-integration-input-embedding/`. Follow the instructions given in the `README.md`.
-- To train the Transformer model with POS integrated to the positional encoding unit, navigate to `src/POS-implementation/fairseq/`. Follow the instructions given in the `README.md`.
+- Navigate to `src/POS-implementation`. Follow the instructions given in the `README.md`.
 ---
 
 ### Publications
 
-T. Fonseka, R. Naranpanawa, R. Perera and U. Thayasivam, “English to Sinhala Neural Machine Translation,”  in 2020 Int. Conf. Asian Language Processing (IALP), Kuala Lumpur, December 2020, pp. 306-309.
+T. Fonseka, R. Naranpanawa, R. Perera and U. Thayasivam, "English to Sinhala Neural Machine Translation," 2020 International Conference on Asian Language Processing (IALP), Kuala Lumpur, Malaysia, 2020, pp. 305-309, doi: [10.1109/IALP51396.2020.9310462](https://doi.org/10.1109/IALP51396.2020.9310462).
 
 
 ### License
