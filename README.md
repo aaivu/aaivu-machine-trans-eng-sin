@@ -85,7 +85,7 @@ pip install --editable ./
 
 T. Fonseka, R. Naranpanawa, R. Perera and U. Thayasivam, "English to Sinhala Neural Machine Translation," 2020 International Conference on Asian Language Processing (IALP), Kuala Lumpur, Malaysia, 2020, pp. 305-309, doi: [10.1109/IALP51396.2020.9310462](https://doi.org/10.1109/IALP51396.2020.9310462).
 
-R. Naranpanawa, R. Perera, T. Fonseka and U. Thayasivam, "Analyzing Subword Techniques to Improve English to Sinhala Neural Machine Translation", International Journal of Asian Language Processing, vol. 30, no. 04, p. 2050017, 2021, doi: [10.1142/s2717554520500174](https://doi.org/10.1142/S2717554520500174).
+R. Naranpanawa, R. Perera, T. Fonseka and U. Thayasivam, "Analyzing Subword Techniques to Improve English to Sinhala Neural Machine Translation," International Journal of Asian Language Processing (IJALP), vol. 30, no. 04, p. 2050017, 2020, doi: [10.1142/s2717554520500174](https://doi.org/10.1142/S2717554520500174).
 
 ### License
 
